@@ -34,13 +34,14 @@ ur5e_mtc_ws/
 ## How to Run
 
 1. **Dependencies**
+   - Sistema Operacional Ubuntu 20.04
    - ROS Noetic
    - MoveIt
    - Gazebo
    - `gazebo_ros_link_attacher` plugin
    - RealSense camera package (optional)
 
-2. **Build the workspace**
+3. **Build the workspace**
 
 ```bash
 cd ur5e_mtc_ws
