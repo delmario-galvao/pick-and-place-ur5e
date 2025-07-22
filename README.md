@@ -48,6 +48,7 @@ cd ur5e_mtc_ws
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
 source devel/setup.bash
+```bash
 
 3. **Launch Gazebo along with support for MoveIt! and RViz:**
 
