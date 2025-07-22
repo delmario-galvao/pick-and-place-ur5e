@@ -1,0 +1,11 @@
+# === ROS / catkin ===
+
+build/
+devel/
+logs/
+*.bag
+*.log
+# === IDEs ===
+
+.vscode/
+.idea/

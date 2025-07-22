@@ -1,0 +1,12 @@
+ur5e_robotiq_85_mtc/third_party/moveit_task_constructor/demo
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/cmake.lock /home/delmario/ur5e_mtc_ws/devel/./cmake.lock
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/libmoveit_task_constructor_demo_pick_place_task.so /home/delmario/ur5e_mtc_ws/devel/lib/libmoveit_task_constructor_demo_pick_place_task.so
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fallbacks_move_to /home/delmario/ur5e_mtc_ws/devel/lib/moveit_task_constructor_demo/fallbacks_move_to
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/modular /home/delmario/ur5e_mtc_ws/devel/lib/moveit_task_constructor_demo/modular
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/pick_place_demo /home/delmario/ur5e_mtc_ws/devel/lib/moveit_task_constructor_demo/pick_place_demo
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/ik_clearance_cost /home/delmario/ur5e_mtc_ws/devel/lib/moveit_task_constructor_demo/ik_clearance_cost
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/alternative_path_costs /home/delmario/ur5e_mtc_ws/devel/lib/moveit_task_constructor_demo/alternative_path_costs
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/cartesian /home/delmario/ur5e_mtc_ws/devel/lib/moveit_task_constructor_demo/cartesian
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/lib/pkgconfig/moveit_task_constructor_demo.pc /home/delmario/ur5e_mtc_ws/devel/lib/pkgconfig/moveit_task_constructor_demo.pc
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake /home/delmario/ur5e_mtc_ws/devel/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake
+/home/delmario/ur5e_mtc_ws/devel/.private/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake /home/delmario/ur5e_mtc_ws/devel/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake

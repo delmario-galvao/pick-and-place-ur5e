@@ -1,0 +1,24 @@
+%time,field.header.seq,field.header.stamp,field.header.frame_id,field.status.goal_id.stamp,field.status.goal_id.id,field.status.status,field.status.text,field.feedback.state
+19776000000,4,19776000000,,19776000000,/move_group_commander_wrappers_1753083208256636625-1-19.776000000,1,This goal has been accepted by the simple action server,PLANNING
+19776000000,5,19776000000,,19776000000,/move_group_commander_wrappers_1753083208256636625-1-19.776000000,1,This goal has been accepted by the simple action server,PLANNING
+19906000000,6,19906000000,,19776000000,/move_group_commander_wrappers_1753083208256636625-1-19.776000000,1,This goal has been accepted by the simple action server,MONITOR
+32424000000,7,32423000000,,19776000000,/move_group_commander_wrappers_1753083208256636625-1-19.776000000,3,Solution was found and executed.,IDLE
+32425000000,8,32425000000,,32424000000,/move_group_commander_wrappers_1753083208256636625-2-32.424000000,1,This goal has been accepted by the simple action server,PLANNING
+32425000000,9,32427000000,,32424000000,/move_group_commander_wrappers_1753083208256636625-2-32.424000000,1,This goal has been accepted by the simple action server,PLANNING
+32480000000,10,32479000000,,32424000000,/move_group_commander_wrappers_1753083208256636625-2-32.424000000,1,This goal has been accepted by the simple action server,MONITOR
+33691000000,11,33691000000,,32424000000,/move_group_commander_wrappers_1753083208256636625-2-32.424000000,3,Solution was found and executed.,IDLE
+33693000000,12,33693000000,,33691000000,/move_group_commander_wrappers_1753083208256636625-3-33.691000000,1,This goal has been accepted by the simple action server,PLANNING
+33694000000,13,33694000000,,33691000000,/move_group_commander_wrappers_1753083208256636625-3-33.691000000,1,This goal has been accepted by the simple action server,PLANNING
+33731000000,14,33731000000,,33691000000,/move_group_commander_wrappers_1753083208256636625-3-33.691000000,1,This goal has been accepted by the simple action server,MONITOR
+33954000000,15,33954000000,,33691000000,/move_group_commander_wrappers_1753083208256636625-3-33.691000000,3,Solution was found and executed.,IDLE
+34501000000,16,34501000000,,34500000000,/move_group_commander_wrappers_1753083208256636625-4-34.500000000,1,This goal has been accepted by the simple action server,PLANNING
+34503000000,17,34502000000,,34500000000,/move_group_commander_wrappers_1753083208256636625-4-34.500000000,1,This goal has been accepted by the simple action server,PLANNING
+34540000000,18,34538000000,,34500000000,/move_group_commander_wrappers_1753083208256636625-4-34.500000000,1,This goal has been accepted by the simple action server,MONITOR
+36061000000,19,36061000000,,34500000000,/move_group_commander_wrappers_1753083208256636625-4-34.500000000,3,Solution was found and executed.,IDLE
+36061000000,20,36061000000,,36061000000,/move_group_commander_wrappers_1753083208256636625-5-36.61000000,1,This goal has been accepted by the simple action server,PLANNING
+36063000000,21,36062000000,,36061000000,/move_group_commander_wrappers_1753083208256636625-5-36.61000000,1,This goal has been accepted by the simple action server,PLANNING
+36112000000,22,36112000000,,36061000000,/move_group_commander_wrappers_1753083208256636625-5-36.61000000,1,This goal has been accepted by the simple action server,MONITOR
+37730000000,23,37730000000,,36061000000,/move_group_commander_wrappers_1753083208256636625-5-36.61000000,3,Solution was found and executed.,IDLE
+37853000000,24,37853000000,,37852000000,/move_group_commander_wrappers_1753083208256636625-6-37.852000000,1,This goal has been accepted by the simple action server,PLANNING
+37856000000,25,37856000000,,37852000000,/move_group_commander_wrappers_1753083208256636625-6-37.852000000,1,This goal has been accepted by the simple action server,PLANNING
+37998000000,26,37990000000,,37852000000,/move_group_commander_wrappers_1753083208256636625-6-37.852000000,1,This goal has been accepted by the simple action server,MONITOR

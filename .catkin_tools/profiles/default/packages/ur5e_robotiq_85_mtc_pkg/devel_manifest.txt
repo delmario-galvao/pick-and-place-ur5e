@@ -1,0 +1,12 @@
+ur5e_robotiq_85_mtc/ur5e_robotiq_85_mtc_pkg
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/cmake.lock /home/delmario/ur5e_mtc_ws/devel/./cmake.lock
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/libpick_and_place_lib.so /home/delmario/ur5e_mtc_ws/devel/lib/libpick_and_place_lib.so
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/libmtc_lib.so /home/delmario/ur5e_mtc_ws/devel/lib/libmtc_lib.so
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/libspawn_helper_lib.so /home/delmario/ur5e_mtc_ws/devel/lib/libspawn_helper_lib.so
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/ur5e_robotiq_85_mtc_pkg/pick_and_place_node /home/delmario/ur5e_mtc_ws/devel/lib/ur5e_robotiq_85_mtc_pkg/pick_and_place_node
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/ur5e_robotiq_85_mtc_pkg/ur5e_home.py /home/delmario/ur5e_mtc_ws/devel/lib/ur5e_robotiq_85_mtc_pkg/ur5e_home.py
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/ur5e_robotiq_85_mtc_pkg/cmake.lock /home/delmario/ur5e_mtc_ws/devel/lib/ur5e_robotiq_85_mtc_pkg/cmake.lock
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/ur5e_robotiq_85_mtc_pkg/pick_demo_node /home/delmario/ur5e_mtc_ws/devel/lib/ur5e_robotiq_85_mtc_pkg/pick_demo_node
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/lib/pkgconfig/ur5e_robotiq_85_mtc_pkg.pc /home/delmario/ur5e_mtc_ws/devel/lib/pkgconfig/ur5e_robotiq_85_mtc_pkg.pc
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/share/ur5e_robotiq_85_mtc_pkg/cmake/ur5e_robotiq_85_mtc_pkgConfig.cmake /home/delmario/ur5e_mtc_ws/devel/share/ur5e_robotiq_85_mtc_pkg/cmake/ur5e_robotiq_85_mtc_pkgConfig.cmake
+/home/delmario/ur5e_mtc_ws/devel/.private/ur5e_robotiq_85_mtc_pkg/share/ur5e_robotiq_85_mtc_pkg/cmake/ur5e_robotiq_85_mtc_pkgConfig-version.cmake /home/delmario/ur5e_mtc_ws/devel/share/ur5e_robotiq_85_mtc_pkg/cmake/ur5e_robotiq_85_mtc_pkgConfig-version.cmake
