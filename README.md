@@ -61,14 +61,14 @@ roslaunch ur5e_robotiq_85_mtc_pkg setup.launch start_rviz:=true
 ```bash
 rosrun ur5e_robotiq_85_mtc_pkg side_pick.py
 ```
-[▶ Watch embedded video](media/side_pick_and_place.webm)
+<video src="media/side_pick_and_place.mp4" controls width="640"></video>
 
 5. **Or run the topdown pick and place pipeline:**
 
 ```bash
 rosrun ur5e_robotiq_85_mtc_pkg topdown_pick.py
 ```
-[▶ Watch embedded video](media/topdown_pick_and_place.webm)
+<video src="media/topdown_pick_and_place.mp4" controls width="640"></video>
 
 ## Future Work
 
@@ -89,3 +89,11 @@ ORCID: 0000-0002-0738-2473
 Luciano dos Santos Gomes \
 Federal University of Bahia (UFBA) \
 Email: luciano.gomes@ufba.br
+
+## Acknowledgments
+
+This project builds upon existing open-source work. The following repositories served as the foundation or inspiration for parts of this workspace:
+
+blackcoffeerobotics/ur5e_robotiq_85_mtc – used as a base for UR5e and Robotiq 2F-85 integration with MoveIt and Gazebo.
+
+juniorsundar/ur5_gripper_control – provided the ROS control interface for the Robotiq 2F-85 gripper.
