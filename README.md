@@ -19,6 +19,7 @@ The vertical grasp proved to be more efficient and less complex in terms of traj
 
 ## Repository Structure
 
+```bash
 ur5e_mtc_ws/
 ├── src/
 │ ├── ur5e_robotiq_85_mtc/ # Custom robot and gripper config
@@ -27,6 +28,7 @@ ur5e_mtc_ws/
 ├── launch/ # Simulation launch files
 ├── config/ # MoveIt config files
 └── README.md
+```
 
 
 ## How to Run
@@ -58,14 +60,22 @@ roslaunch ur5e_robotiq_85_mtc_pkg setup.launch start_rviz:=true
 ```bash
 rosrun ur5e_robotiq_85_mtc_pkg side_pick.py
 ```
-<video src="media/side_pick_and_place.mp4" controls width="640"></video>
+
+
+https://github.com/user-attachments/assets/551135ce-845c-48e1-a24c-4fe19b553af3
+
+
 
 5. **Or run the topdown pick and place pipeline:**
 
 ```bash
 rosrun ur5e_robotiq_85_mtc_pkg topdown_pick.py
 ```
-<video src="media/topdown_pick_and_place.mp4" controls width="640"></video>
+
+
+https://github.com/user-attachments/assets/5504e21f-f9f0-4abd-8a4d-0957d7b61fae
+
+
 
 ## Future Work
 
@@ -77,7 +87,7 @@ Obstacle avoidance using OctoMap
 
 Real-robot deployment and testing
 
-Authors:
+## Authors:
 
 Delmário dos Santos Gomes Galvão \
 Federal University of Bahia (UFBA) \
