@@ -1,0 +1,69 @@
+# Base link in gazebo link_states
+base_link_state: robot::base_link
+
+# Target object to pick
+object_name: pick_cube
+
+# Objects to spawn in the scene
+planning_scene_objects:
+  - name: beer
+    link_state: beer::link
+    type: CYLINDER
+    dimensions: [0.035, 0.16]   # raio, altura
+    pose:
+      frame_id: base_link
+      position: [0.48, 0.00, 0.10]
+      orientation: [0, 0, 0, 1]
+    origin_compensation: [0., 0., 0.001]
+
+
+  # - name: pick_cube
+  #   link_state: pick_cube::link          # modelo::link no Gazebo
+  #   type: BOX
+  #   dimensions: [0.04, 0.04, 0.04]       # Lx, Ly, Lz (m)
+  #   pose:
+  #     frame_id: base_link
+  #     position: [0.45, 0.00, 0.010]
+  #     orientation: [0, 0, 0, 1]
+  #   origin_compensation: [0., 0., 0.001]
+
+  - name: table
+    link_state: table::link
+    type: BOX
+    dimensions: [1.5, 0.8, 0.03]
+    pose:
+      frame_id: base_link
+      position: [0.45, 0.0, -0.025]  # mesa rente ao chão
+      orientation: [0, 0, 0, 1]
+    origin_compensation: [0., 0., 0.001]
+
+
+# Place offset
+place_offset: [0.0, 0.5, 0.0]
+
+# Orientation RPY constraint
+orientation_constraint_name: upright_constraint
+
+# Offset from the center
+object_center_offset: 0.02
+object_center_offset_axis: -z
+
+# Approach object range offsets
+approach_object_min_dist: 0.15
+approach_object_max_dist: 0.4
+approach_axis: +z
+
+# Valid distance range when lifting an object after pick
+lift_object_min_dist: 0.2
+lift_object_max_dist: 0.4
+lift_axis: -y
+
+# Valid distance range when dropping an object
+drop_object_min_dist: 0.05
+drop_object_max_dist: 0.4
+drop_axis: +y
+
+# Retreat after place
+retreat_object_min_dist: 0.05
+retreat_object_max_dist: 0.25
+retreat_axis: -z

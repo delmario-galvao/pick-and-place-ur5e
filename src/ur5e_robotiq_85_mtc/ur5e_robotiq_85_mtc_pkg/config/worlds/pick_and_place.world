@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+
+		<!-- Setup camera initial pose -->
+    <gui>
+			<camera name="gzclient_camera">
+				<pose>3.64 0 3.36 0 0.57 3.1414</pose>
+			</camera>
+    </gui>
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+	    <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+		<!-- Add table -->
+		<include>
+			<uri>model://table</uri>
+			<pose>0.33 0.0 0.0 0 0 1.5707</pose>
+		</include>
+
+		<!-- Add beer can -->
+		<include>
+			<uri>model://beer</uri>
+			<pose>0.5 0 1.02 0 0 0</pose>
+		</include>
+
+		<!-- Cubo 4 cm, preto -->
+		<!-- <model name="pick_cube">
+			<static>false</static>
+			<pose>0.45 0 1.04 0 0 0</pose>
+			<link name="link">
+				<visual name="v">
+				<geometry>
+					<box><size>0.04 0.04 0.04</size></box>
+				</geometry>
+				<material>
+					<ambient>0 0 0 1</ambient>
+				</material>
+				</visual>
+
+				<collision name="c">
+				<geometry>
+					<box><size>0.04 0.04 0.04</size></box>
+				</geometry>
+				<surface>
+					<friction>
+					<ode>
+						<mu>1.0</mu>
+						<mu2>1.0</mu2>
+					</ode>
+					</friction>
+				</surface>
+				</collision>
+
+				<inertial>
+				<mass>0.01</mass>
+				</inertial>
+			</link>
+		</model> -->
+
+
+	<plugin name="gazebo_ros_link_attacher" filename="libgazebo_ros_link_attacher.so"/>
+
+		<!-- keep barebones scene -->
+    <scene>
+      <!-- <shadows>0</shadows>
+			<grid>false</grid>
+			<origin_visual>false</origin_visual> -->
+    </scene>
+
+  </world>
+</sdf>

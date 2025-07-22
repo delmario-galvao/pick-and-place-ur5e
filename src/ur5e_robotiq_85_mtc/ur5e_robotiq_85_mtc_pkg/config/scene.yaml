@@ -1,0 +1,12 @@
+objects:
+  - name: table
+    type: BOX
+    frame_id: world
+    size: [1.5, 0.8, 0.03]       # Lx, Ly, Lz  (m)
+    pose: {position: [0.33, 0.0, 1.0], orientation: [0, 0, 0, 1]}
+
+  - name: pick_cube
+    type: BOX
+    frame_id: world
+    size: [0.04, 0.04, 0.04]
+    pose: {position: [0.45, 0.0, 1.02], orientation: [0, 0, 0, 1]}

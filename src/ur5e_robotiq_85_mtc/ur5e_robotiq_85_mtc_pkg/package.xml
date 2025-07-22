@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ur5e_robotiq_85_mtc_pkg</name>
+  <version>0.0.0</version>
+  <description>The ur5e_robotiq_85_mtc_pkg package</description>
+
+  <maintainer email="leander@blackcoffeerobotics.com">leander</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+	<build_depend>roscpp</build_depend>
+	<exec_depend>roscpp</exec_depend>
+
+	<exec_depend>roboticsgroup_upatras_gazebo_plugins</exec_depend>
+	<exec_depend>robotiq_2f_85</exec_depend>
+	<exec_depend>ur_description</exec_depend>
+	<exec_depend>ur_gazebo</exec_depend>
+	<exec_depend>ur5e_robotiq_85_moveit_config</exec_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <export>
+    <gazebo_ros
+      plugin_path="${prefix}/lib"
+      gazebo_media_path="${prefix}"
+      gazebo_model_path="${prefix}/config/models"
+      />
+  </export>
+
+</package>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot name="d435" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <link name="d435_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <!-- Malha com textura (caso a .dae tenha texturas embutidas) -->
+        <mesh filename="package://realsense2_description/meshes/d435.dae" scale="1 1 1"/>
+      </geometry>
+      <!-- Removido o material que sobrescrevia a textura do .dae -->
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.09 0.025 0.025"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.072"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <gazebo reference="d435_link">
+    <sensor type="depth" name="d435_depth">
+      <pose>0 0 0 0 -1.5708 0</pose>
+      <always_on>true</always_on>
+      <update_rate>30.0</update_rate>
+
+      <camera>
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>600</height>
+        </image>
+        <clip><near>0.1</near><far>10.0</far></clip>
+      </camera>
+
+      <!-- plugin específico de profundidade -->
+      <plugin name="gazebo_ros_depth_camera" filename="libgazebo_ros_depth_camera.so">
+        <robotNamespace>/d435</robotNamespace>
+        <frame_name>d435_link</frame_name>
+
+        <!-- Tópicos padrão -->
+        <depth_image_topic_name>depth/image_raw</depth_image_topic_name>
+        <camera_info_topic_name>depth/camera_info</camera_info_topic_name>
+        <point_cloud_topic_name>depth/points</point_cloud_topic_name>
+
+        <pointCloudCutoff>0.03</pointCloudCutoff>
+
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>
