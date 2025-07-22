@@ -1,6 +1,3 @@
-# pick-and-place-ur5e
-6D grasping strategies using UR5e and Robotiq 2F-85 in ROS/Gazebo with MoveIt: a comparative study between lateral and vertical grasps.
-
 # UR5e Pick and Place – Comparative Grasping Strategies
 
 This repository contains the simulation files and scripts for the final project of the *Robotic Systems* course, which focused on robotic object manipulation using 6D grasping strategies.
