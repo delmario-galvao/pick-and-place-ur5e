@@ -48,19 +48,27 @@ cd ur5e_mtc_ws
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
 source devel/setup.bash
-```bash
+```
 
 3. **Launch Gazebo along with support for MoveIt! and RViz:**
 
+```bash
 roslaunch ur5e_robotiq_85_mtc_pkg setup.launch start_rviz:=true
+```
 
 4. **run the lateral pick and place pipeline:**
 
+```bash
 rosrun ur5e_robotiq_85_mtc_pkg side_pick.py
+```
+[▶ Watch embedded video](media/side_pick_and_place.webm)
 
 5. **Or run the topdown pick and place pipeline:**
 
+```bash
 rosrun ur5e_robotiq_85_mtc_pkg topdown_pick.py
+```
+[▶ Watch embedded video](media/topdown_pick_and_place.webm)
 
 ## Future Work
 
